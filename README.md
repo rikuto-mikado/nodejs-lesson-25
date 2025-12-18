@@ -88,3 +88,6 @@ A: This follows the Post/Redirect/Get (PRG) pattern to prevent duplicate form su
 
 ## Memo
 
+### Recent Updates
+
+Migrated the project from Handlebars to EJS template engine for simpler syntax and better compatibility. Fixed broken template structure in users.ejs where the forEach loop was incomplete and conditional rendering was malformed. Enhanced the form in index.ejs by adding proper labels, accessibility attributes, and improved structure. Removed express-handlebars dependencies and installed ejs package to resolve module errors.
